@@ -20,7 +20,7 @@
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | Tốn thời gian | Mua sắm trực tuyến phải mở nhiều sàn/shop để so sánh giá, mã giảm giá và phí ship cuối cùng | Sinh viên / người mua đồ dùng, đồ công nghệ cá nhân (bản thân) | Mở 6–10 tab (Shopee, Lazada, TikTok Shop) mỗi khi mua đồ; mất 25–35 phút/lần để so sánh giá sau mã; tần suất 2–3 lần/tuần. Có đợt mua xong mới thấy sàn khác rẻ hơn 50k-70k do sót mã. |
+| 1 | AI có thể tốt hơn | Người câm điếc gặp rào cản giao tiếp hai chiều với người nghe trong đời sống hàng ngày do thiếu công cụ dịch thuật ký hiệu/âm thanh real-time | Cộng đồng người câm điếc, người nghe bình thường (nhân viên dịch vụ, y tế, giáo dục) | Một phiên giao tiếp ngắn (mua sắm, khám bệnh) bị kéo dài 5–10 phút do phải gõ chữ/viết giấy qua lại; độ trễ mỗi câu 45–60s; dễ hiểu lầm hoặc bỏ dở giữa chừng. |
 | 2 | Tốn thời gian | Tìm kiếm thông tin cụ thể (thông báo deadline, link tài liệu, file bài tập) bị trôi trong các nhóm chat dài (Zalo, Messenger, Discord) | Sinh viên tham gia các nhóm chat học tập, nhóm bài tập (bản thân) | Phải cuộn qua 200–300 tin nhắn mỗi ngày; search từ khóa mặc định không ra nếu không nhớ chính xác chữ; mất **5–10 phút/lần** lướt tìm; tần suất **3–4 lần/tuần**. Từng có 1 lần nộp bài muộn do tin nhắn dời deadline bị trôi. |
 | 3 | Lặp lại | Cần đổi tên hàng loạt file tài liệu/ảnh bài tập nộp theo một quy tắc chung nhưng phải làm thủ công từng file | Sinh viên / người dùng máy tính quản lý tài liệu học tập (bản thân) | Mỗi lần nộp bài tập lớn/tiểu luận phải đổi tên 20–40 file theo cú pháp `[MSSV]_[Tên]_[Bài]`; sửa từng file mất 10–12 giây/file → mất **5–8 phút/lần**; tần suất **1–2 lần/tuần**; thỉnh thoảng gõ nhầm số thứ tự phải rà lại. |
 | 4 | Lặp lại | Phân loại và lưu trữ các bài viết kỹ thuật, repo GitHub, paper GenAI hữu ích để tra cứu lại | Sinh viên nghiên cứu GenAI (bản thân) | Mỗi tuần bookmark 15–20 links trên trình duyệt và Zalo Cloud nhưng không phân loại; khi cần tìm lại mất 20–30 phút lục lại lịch sử duyệt web hoặc phải tìm kiếm lại từ đầu. |
@@ -53,7 +53,7 @@ Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottlenec
 
 | Rank | Problem (copy từ bảng scan) | Vì sao chọn (2-3 ý) | Điều còn chưa chắc |
 |---|---|---|---|
-| 1 | Mua sắm trực tuyến phải mở nhiều sàn/shop để so sánh giá, mã giảm giá và phí ship cuối cùng | - Pain point rất thật và tần suất cao (2–3 lần/tuần).<br>- Workflow rõ ràng (tìm kiếm → gom giỏ → áp voucher → so giá ship).<br>- Metric đo lường trực quan bằng tiền tiết kiệm và thời gian. | Khó khăn kỹ thuật khi crawl giá và voucher động trên các app di động bị đóng API. |
+| 1 | Người câm điếc gặp rào cản lớn trong giao tiếp hai chiều với người nghe bình thường trong đời sống hàng ngày | - Giải quyết rào cản giao tiếp thiết yếu trong các tình huống hàng ngày (khám bệnh, thủ tục, mua sắm).<br>- AI tạo ra bước nhảy vọt thực sự (Computer Vision kết hợp Speech-to-Text hai chiều).<br>- Metric đo lường định lượng rõ: giảm 60% thời gian giao tiếp, độ chính xác >90%. | Độ trễ khi chạy model Computer Vision nhận diện chuyển động trên thiết bị di động cá nhân (Edge Device) và tính đa dạng của ngôn ngữ ký hiệu. |
 | 2 | Tìm kiếm thông tin cụ thể (thông báo deadline, link tài liệu, file bài tập) bị trôi trong các nhóm chat dài (Zalo, Messenger, Discord) | - 100% sinh viên và người làm việc nhóm đều gặp phải.<br>- Điểm nghẽn cuộn chat tốn nhiều thời gian và dễ sót việc quan trọng.<br>- Rất phù hợp để áp dụng Semantic Search/AI trích xuất thông tin. | Giới hạn quyền riêng tư (Data Privacy) và API của các nền tảng chat phổ biến như Zalo/Messenger. |
 | 3 | Cần đổi tên hàng loạt file tài liệu/ảnh bài tập nộp theo một quy tắc chung nhưng phải làm thủ công từng file | - Bài toán lặp đi lặp lại mỗi đợt nộp bài tập lớn/tiểu luận.<br>- Rất tốt để phân biệt giữa giải pháp Rule/Script thông thường với giải pháp AI.<br>- Boundary rất hẹp, khả thi để thử nghiệm ngay lập tức. | Người dùng phổ thông có thể ngại dùng dòng lệnh (script) và chỉ cần công cụ Rule đơn giản thay vì AI. |
 
@@ -61,60 +61,63 @@ Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottlenec
 
 ---
 
-#### Problem Card #1 — So sánh giá và ưu đãi mua sắm trực tuyến đa sàn
+#### Problem Card #1 — Trợ lý AI thời gian thực hỗ trợ giao tiếp cho người câm điếc
 
 ```text
 Problem 1 câu:
-Người mua sắm trực tuyến mất 25–35 phút mỗi lần mua hàng để so sánh giá, mã giảm giá và phí vận chuyển giữa nhiều sàn thương mại điện tử, dễ bỏ sót voucher tốt nhất.
+Người câm điếc gặp rào cản lớn trong việc giao tiếp hai chiều với người nghe bình thường trong đời sống hàng ngày do thiếu một công cụ dịch thuật ngôn ngữ ký hiệu và âm thanh chuẩn xác, theo thời gian thực và có chi phí tiếp cận thấp.
 
 Actor:
-Sinh viên / người mua đồ dùng học tập, đồ công nghệ cá nhân trên các sàn TMĐT (Shopee, Lazada, TikTok Shop).
+Cộng đồng người câm điếc (hoặc người giao tiếp thường xuyên với họ như nhân viên dịch vụ, y tế, giáo dục).
 
 Thời điểm / bối cảnh:
-Hiện nay xu hướng mua sắm trực tuyến đang rất phát triển, việc đặt hàng online trở thành thói quen thường nhật của sinh viên và người tiêu dùng trẻ. Tuy nhiên, thị trường lại phân mảnh giữa nhiều nền tảng (Shopee, Lazada, TikTok Shop) với ma trận giá, mã giảm giá và phí vận chuyển thay đổi liên tục. Bối cảnh này phát sinh thường xuyên mỗi khi người mua cần chốt một món đồ cụ thể (đặc biệt là đồ từ 200.000đ trở lên hoặc các đợt sale lớn), buộc phải mở song song nhiều ứng dụng để dò tìm mức giá thực trả sau khi đã áp hết voucher.
+Các tình huống giao tiếp trực tiếp hàng ngày (mua sắm, khám bệnh, làm thủ tục hành chính, trao đổi công việc) đòi hỏi phản hồi nhanh chóng và tự nhiên. Khi hai bên không dùng chung phương thức giao tiếp, quá trình trao đổi dễ bị tắc nghẽn, gây hiểu lầm hoặc mất nhiều thời gian để truyền đạt thông tin cơ bản.
 
 Current workflow 3-7 bước:
-1. Mở sàn 1 (Shopee) tìm sản phẩm, chọn 2-3 shop uy tín và lưu giá niêm yết (5').
-2. Mở tiếp sàn 2 (Lazada) và sàn 3 (TikTok Shop) tìm sản phẩm cùng loại (5').
-3. Thêm sản phẩm vào giỏ hàng ở từng sàn và gom các mã giảm giá, voucher tích lũy (10').
-4. Vào màn hình thanh toán (checkout) của từng sàn để so sánh tổng chi phí cuối cùng (đã gồm phí ship và mã giảm) (8').
-5. Chọn shop có giá cuối rẻ nhất và tiến hành thanh toán (2').
+1. Người câm điếc dùng ký hiệu hoặc chữ viết tay trên điện thoại.
+2. Người nghe đọc/quan sát nhưng hiểu lầm hoặc mất nhiều thời gian để hiểu.
+3. Người nghe nói phản hồi lại.
+4. Người câm điếc không nghe được, phải nhờ người nghe viết ra giấy hoặc gõ chữ.
+5. Hai bên lặp lại quá trình gõ/đọc trên, khiến giao tiếp bị đứt quãng, căng thẳng và kém hiệu quả.
 
 Bottleneck:
-Bước 4 — Phải vào tận bước thanh toán cuối cùng của từng sàn mới biết phí ship thực tế và voucher nào áp dụng được, phải chuyển đổi tab liên tục để ghi nhớ số tiền so sánh.
+Bước 1–4 — Điểm nghẽn nằm ở độ trễ cao của quá trình dịch thuật thủ công (phải gõ chữ/viết giấy qua lại mất 45–60 giây/câu) và sự thiếu hụt các công cụ nhận diện ngôn ngữ ký hiệu (Sign Language) bằng AI chạy mượt mà theo thời gian thực trên thiết bị di động cá nhân.
 
 Impact:
-Mất 25–35 phút/lần mua; tần suất 2–3 lần/tuần (tốn 1.5–2 tiếng/tuần); có nguy cơ bị mua đắt hơn từ 50.000đ – 100.000đ nếu bỏ sót voucher hoặc tính nhầm phí ship.
+Một cuộc hội thoại thông thường (ví dụ: mô tả triệu chứng bệnh, làm thủ tục) bị kéo dài từ 1–2 phút thành 5–10 phút; gây ra sự cô lập xã hội, khó khăn trong việc tiếp cận các dịch vụ thiết yếu và tạo áp lực tâm lý lớn cho người câm điếc mỗi khi cần hòa nhập cộng đồng.
 
 Success metric:
-Giảm thời gian so sánh giá từ 30 phút xuống dưới 5 phút/lần mua; 100% đơn hàng tìm được phương án chi phí cuối cùng tối ưu nhất.
+Thời gian hoàn thành một phiên giao tiếp ngắn giảm 60% (từ 5–10 phút xuống còn 2–3 phút); độ trễ phản hồi mỗi câu giảm xuống dưới 3–5 giây; tỷ lệ hiểu đúng thông điệp giữa hai bên đạt trên 90%.
 
 Non-AI alternative:
-Sử dụng các trang web so sánh giá truyền thống (như Websosanh) hoặc tự lập bảng tính Excel. Nhược điểm: Web truyền thống chỉ so sánh giá gốc, không tính được voucher cá nhân hóa theo tài khoản người dùng và phí ship động theo vị trí địa lý.
+Sử dụng bảng viết tay mini mang theo người, dùng ứng dụng ghi chú (Notes/Notepad) gõ chữ qua lại, hoặc thuê phiên dịch viên ngôn ngữ ký hiệu chuyên nghiệp. Ưu điểm là dễ tiếp cận hoặc độ chính xác cao (với phiên dịch viên); nhược điểm là gõ chữ thì quá chậm và làm đứt gãy mạch hội thoại, còn phiên dịch viên thì chi phí đắt đỏ và không phải lúc nào cũng có sẵn.
 
 AI hypothesis:
-Hệ thống tự động hóa/AI nhận đường link sản phẩm, phân tích thông tin mã giảm giá hiện có, tính toán tổng chi phí cuối cùng tại trang thanh toán và gợi ý lựa chọn tối ưu nhất. Người dùng luôn kiểm tra lại giỏ hàng trước khi bấm thanh toán.
+Ứng dụng Computer Vision (nhận diện cử chỉ tay và biểu cảm qua camera điện thoại) kết hợp Speech-to-Text / Text-to-Speech để làm cầu nối dịch thuật hai chiều tức thì: Chuyển ký hiệu thành giọng nói/văn bản cho người nghe, và chuyển giọng nói của người nghe thành văn bản hiển thị cho người câm điếc. Người dùng có thể kiểm tra nhanh nội dung trước khi phát âm thanh nếu độ tin cậy của mô hình chưa cao.
 
 Quick gut:
 [ ] No AI / process fix
 [ ] Rule
-[x] Workflow
-[ ] Agent
+[ ] Workflow
+[x] Agent
 [ ] Chưa biết
 ```
 
 **Draft workflow Card #1** (ASCII / Mermaid / ảnh đính kèm):
 
 ```text
-CURRENT STATE — 30 phút
+CURRENT STATE — 5–10 phút / phiên giao tiếp
 
-[1 Tìm SP sàn 1: 5'] → [2 Tìm SP sàn 2, 3: 5'] → [3 Gom giỏ & mã: 10'] → [4 Checkout từng sàn so giá cuối: 8'] <-- bottleneck → [5 Chốt đơn: 2']
+[1 Người câm điếc ký hiệu / viết tay: 1'] → [2 Người nghe đọc / dễ hiểu lầm: 1'] → [3 Người nghe nói lại: 0.5'] → [4 Không nghe được, nhờ viết giấy/gõ máy: 2-3'] <-- bottleneck → [5 Giao tiếp đứt quãng, căng thẳng: 2-3']
 
-FUTURE STATE — 5 phút
+FUTURE STATE — 1–2 phút (Real-time hai chiều)
 
-[1 Dán link/tên SP cần mua: 1'] → [2 Hệ thống tự động so sánh giá cuối & voucher: 1'] → [3 Người dùng review bảng so sánh: 2'] <-- human boundary → [4 Mở link chốt đơn: 1']
+[1 Người câm điếc dùng camera điện thoại ra ký hiệu] 
+→ [2 Computer Vision Model (MediaPipe/Transformer) nhận diện cử chỉ tay trên Edge device: 1-2s] 
+→ [3 AI dịch chuỗi cử chỉ thành văn bản tiếng Việt & phát âm thanh qua loa] <-- human boundary (xem trước văn bản)
+→ [4 Người nghe trả lời bằng giọng nói → AI Speech-to-Text chuyển thành văn bản tức thì cho người câm điếc đọc: 1-2s]
 
-Fallback: Nếu hệ thống không lấy được voucher cá nhân hoặc link lỗi → Người dùng tự kiểm tra trực tiếp tại màn hình thanh toán của sàn như cũ.
+Fallback: Nếu môi trường thiếu sáng, camera bị che hoặc cử chỉ không nhận diện được (độ tin cậy < 70%) → Hệ thống lập tức gợi ý chuyển về giao diện gõ chữ nhanh kết hợp từ điển ký hiệu thông dụng.
 ```
 
 File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-1.png`
@@ -246,27 +249,27 @@ File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
 **Card tôi muốn pitch nhất:**
 
 ```text
-Problem Card #1 — So sánh giá và ưu đãi mua sắm trực tuyến đa sàn (Shopee, Lazada, TikTok Shop).
+Problem Card #1 — Trợ lý AI thời gian thực hỗ trợ giao tiếp cho người câm điếc.
 ```
 
 **Vì sao (2-3 câu: workflow gì, số đo gì, impact gì):**
 
 ```text
-- Workflow rất cụ thể và chạm đúng pain point sát sườn: Hầu như bạn trẻ nào mua hàng online cũng phải mở 6–10 tab, bấm gom mã, chọn địa chỉ để so giá cuối cùng tại bước checkout.
-- Số liệu và tác động đo lường trực tiếp: Giảm thời gian so sánh giá từ 25–35 phút xuống dưới 5 phút mỗi lần mua; tránh bị mất tiền oan từ 50.000đ – 100.000đ do sót mã giảm giá hoặc phí ship cao.
-- Bài toán có ranh giới rõ giữa Rule và AI: Phân định được việc tính giá/voucher theo công thức (Rule) kết hợp với AI (đọc hiểu điều kiện áp mã phức tạp từ banner/thể lệ khuyến mãi), trong đó người mua vẫn là người trực tiếp kiểm tra và bấm thanh toán.
+- Giải quyết rào cản giao tiếp hai chiều thiết yếu: Chuyển đổi trực tiếp giữa Ngôn ngữ ký hiệu ↔ Giọng nói/Văn bản thay vì quy trình thủ công viết giấy/gõ chữ đứt quãng.
+- Số liệu định lượng và tác động rõ rệt: Giúp giảm 60% thời gian của một phiên giao tiếp thông thường (từ 5–10 phút xuống còn 2–3 phút); độ trễ phản hồi dưới 3–5 giây; tỷ lệ hiểu đúng thông điệp giữa hai bên đạt trên 90%.
+- Bài toán Multimodal AI điển hình trên Edge Device: Ứng dụng Computer Vision (MediaPipe/Transformer) xử lý cử chỉ tay và nét mặt kết hợp Speech-to-Text hai chiều, tạo ra bước nhảy vọt so với giải pháp Rule hoặc gõ phím truyền thống.
 ```
 
 **Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
 
 ```text
-1. Các sàn TMĐT (Shopee, Lazada, TikTok Shop) thường xuyên chặn bot cào dữ liệu (anti-scraping) và voucher phụ thuộc vào từng tài khoản cá nhân, vậy giải pháp kỹ thuật sẽ vượt qua rào cản này như thế nào?
-2. Số tiền tiết kiệm được (vài chục nghìn mỗi đơn) có đủ hấp dẫn để người dùng sẵn sàng cài đặt thêm tiện ích/công cụ mới thay vì tự kiểm tra thủ công theo thói quen cũ không?
+1. Nhận diện chuỗi cử chỉ tay liên tục bằng Computer Vision (MediaPipe/Transformer) trên smartphone phổ thông làm sao tối ưu hóa để đảm bảo độ trễ (latency) dưới 1–2 giây mà không làm máy quá nóng hay hao pin?
+2. Ngôn ngữ ký hiệu trong đời sống có nhiều phương ngữ vùng miền (Hà Nội, TP.HCM...) và bối cảnh ánh sáng/góc máy thay đổi, giải pháp làm thế nào để đạt độ chính xác >90% khi triển khai thực tế?
 ```
 
 **AI phản biện Card (nếu có):**
-- Điểm yếu AI chỉ ra: Bài toán có nguy cơ thiên về Rule / Web Scraping thuần túy hơn là AI, đồng thời chính sách bảo mật và chống crawler của các sàn TMĐT rất gắt gao.
-- Tôi sửa gì: Xác định rõ vai trò của AI là đọc hiểu thể lệ voucher/banner khuyến mãi phức tạp và đề xuất chiến lược áp mã tối ưu; đồng thời khoanh vùng boundary ở dạng tiện ích hỗ trợ đọc giỏ hàng khi người dùng đang lướt web thay vì cố xây hệ thống cào dữ liệu độc lập.
+- Điểm yếu AI chỉ ra: Rào cản lớn nhất của Agent này là chi phí tính toán (compute cost) trên di động và sự khác biệt về phương ngữ (dialect) trong ngôn ngữ ký hiệu ở các vùng miền khác nhau.
+- Tôi sửa gì: Bổ sung "Human boundary" rõ ràng: Thay vì dịch rồi phát ra loa tự động ngay lập tức, trong các phiên bản đầu, AI hiển thị văn bản dự đoán trên màn hình và người dùng bấm xác nhận (hoặc lắc tay để AI dịch lại) trước khi AI phát âm thanh.
 
 ### Self-check nộp phần 01
 - [x] Có 5+ problems + top 3 Cards đủ field
