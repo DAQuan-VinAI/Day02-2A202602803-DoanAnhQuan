@@ -108,8 +108,7 @@ AI tự động quét và trích xuất thực thể (task, deadline) từ các 
 [X] Workflow
 [ ] Agent
 [ ] Chưa biết
-```
-```
+
 **Draft workflow Card #1** (ASCII / Mermaid / ảnh đính kèm):
 
 ```text
@@ -180,8 +179,6 @@ AI tự động sinh đề theo đúng cấp độ, chấm bài làm của ngư�
 [ ] Workflow
 [X] Agent
 [ ] Chưa biết
-```
-```
 **Draft workflow Card #2:**
 
 ```text
@@ -298,7 +295,7 @@ Impact: Giúp Junior/Intern tiết kiệm thời gian rà soát, không bị tr�
 **Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
 
 ```text
-
+Thách thức về công nghệ. 1 thứ gì đó có thể truy cập nhiều nền tảng khác nhau. Ngoài ra còn thách thức về bảo mật thông tin.
 ```
 
 **AI phản biện Card (nếu có):**
