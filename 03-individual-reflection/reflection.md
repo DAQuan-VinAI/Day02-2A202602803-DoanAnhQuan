@@ -76,7 +76,7 @@ Nghe bài toán của các bạn, tôi nhận ra một đề tài hay không c�
 - [X] [12đ] Tôi đã pitch rõ + challenge nhóm đúng trọng tâm (ghi ở bảng mục 1)
 - [X] Nhóm có nhật ký hội tụ từ candidates về 1 bài
 - [X] [15đ] Nhóm có workflow trước/sau
-- [ ] [20đ] Nhóm có PS v0/v1 với metric + boundary rõ
+- [X] [20đ] Nhóm có PS v0/v1 với metric + boundary rõ
 - [X] [15đ] Nhóm có so sánh No AI / Rule / Workflow / Agent
 - [X] [10đ] Nhóm có Go / Not Yet / No-Go + lý do rõ
 - [X] [10đ] Reflection này có vai trò thật + AI giúp/sai ở đâu + điều học được + nếu làm lại đổi gì
