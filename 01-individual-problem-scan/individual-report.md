@@ -36,9 +36,9 @@
 - Ý bỏ vì không phải pain thật:10 vì thời gian cập nhật có thể tốn thời gian hơn báo cáo trực tiếp với nhau
 
 **Self-check Phase 1:**
-- [ ] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
-- [ ] Dùng ít nhất 3/4 lăng kính
-- [ ] Không có dòng chung chung kiểu "mất nhiều thời gian"
+- [X] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
+- [X] Dùng ít nhất 3/4 lăng kính
+- [X] Không có dòng chung chung kiểu "mất nhiều thời gian"
 
 ---
 
@@ -92,24 +92,6 @@ Quick gut:
 [x] Workflow
 [ ] Agent
 [ ] Chưa biết
----
-
-**Draft workflow Card #1** (ASCII / Mermaid / ảnh đính kèm):
-
-```text
-CURRENT STATE — ___ phút
-
-[1 ...: __'] → [2 ...: __'] → [3 ...: __'] → [4 ...: __']  <-- bottleneck
-
-FUTURE STATE — ___ phút
-
-[1 ...: __'] → [2 ...: __'] → [3 ... review: __']  <-- human boundary
-
-Fallback: nếu AI sai thì ...
-```
-
-File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-1.png`
-
 ---
 
 #### Problem Card #2 — [ĐỌC & DỊCH TÀI LIỆU CHUYÊN NGÀNH TIẾNG ANH (PAPER AI/ML)]
@@ -167,8 +149,6 @@ Nếu AI dịch sai thuật ngữ hoặc hallucinate công thức toán: Đối 
 
 ```
 
-File đính kèm: `01-individual-problem-scan-workflow-card-2.png`
-
 ---
 
 #### Problem Card #3 — [VIẾT LẠI (PARAPHRASE) ĐOẠN VĂN ĐỂ TRÁNH TRÙNG LẶP KHI QUA TURNITIN]
@@ -224,9 +204,6 @@ FUTURE STATE — 45 phút
 Fallback: 
 Nếu AI viết lại làm sai lệch ý nghĩa chuyên môn hoặc văn phong quá máy móc: Áp dụng phương pháp tóm tắt chủ động (đọc hiểu ý rồi tự gõ lại theo cách hiểu của mình) hoặc chuyển các định nghĩa/số liệu sang dạng trích dẫn trực tiếp (để trong ngoặc kép kèm citation chuẩn APA/IEEE) để Turnitin tự động bỏ qua.
 ```
-
-File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
-
 ---
 
 ### 2.3. Card muốn pitch nhất (chuẩn bị 2 phút)
